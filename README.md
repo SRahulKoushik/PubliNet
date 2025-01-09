@@ -5,7 +5,7 @@ In relation to Kharagpur Data Science Hackathon
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
+├── LICENSE            <- Open-source license if one is chosen in future
 ├── README.md          <- The top-level README for developers using this project
 ├── data
 │   ├── external       <- Data from third-party sources
