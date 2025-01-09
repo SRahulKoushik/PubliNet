@@ -1,0 +1,505 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Premature Termination Strategy for Deep Image Prior",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          103.57464158535004,
+          81.8338623046875
+        ],
+        [
+          508.2033348083496,
+          81.8338623046875
+        ],
+        [
+          508.2033348083496,
+          99.04925537109375
+        ],
+        [
+          103.57464158535004,
+          99.04925537109375
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.0317463874817,
+          182.81317138671875
+        ],
+        [
+          328.2432861328125,
+          182.81317138671875
+        ],
+        [
+          328.2432861328125,
+          194.76837158203125
+        ],
+        [
+          283.0317463874817,
+          194.76837158203125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.00100040435791,
+          375.81915283203125
+        ],
+        [
+          129.61366271972656,
+          375.81915283203125
+        ],
+        [
+          129.61366271972656,
+          387.77435302734375
+        ],
+        [
+          46.00100040435791,
+          387.77435302734375
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.111392080783844,
+          504.76617431640625
+        ],
+        [
+          135.89015197753906,
+          504.76617431640625
+        ],
+        [
+          135.89015197753906,
+          516.7213745117188
+        ],
+        [
+          46.111392080783844,
+          516.7213745117188
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.22270482778549,
+          53.244107365608215
+        ],
+        [
+          132.20371288061142,
+          53.244107365608215
+        ],
+        [
+          132.20371288061142,
+          66.7423095703125
+        ],
+        [
+          46.22270482778549,
+          66.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          45.91297888755798,
+          270.0880193710327
+        ],
+        [
+          131.67458975315094,
+          270.0880193710327
+        ],
+        [
+          131.67458975315094,
+          283.15533447265625
+        ],
+        [
+          45.91297888755798,
+          283.15533447265625
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Image Denoising",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.46481415629387,
+          393.57193779945374
+        ],
+        [
+          142.41978085041046,
+          393.57193779945374
+        ],
+        [
+          141.22446835041046,
+          405.17390155792236
+        ],
+        [
+          45.26950165629387,
+          405.17390155792236
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Image Super-Resolution",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.768252193927765,
+          469.0383882522583
+        ],
+        [
+          173.36463332176208,
+          467.4915132522583
+        ],
+        [
+          172.16932082176208,
+          480.0841064453125
+        ],
+        [
+          45.572939693927765,
+          480.6271104812622
+        ]
+      ]
+    },
+    {
+      "title": "4.3 MRI Reconstruction",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.79999923706055,
+          672.6685166358948
+        ],
+        [
+          158.00746858119965,
+          671.1216416358948
+        ],
+        [
+          156.9265594482422,
+          683.3301086425781
+        ],
+        [
+          45.76152205467224,
+          684.2555394172668
+        ]
+      ]
+    },
+    {
+      "title": "4.4 Blind Image Deblurring",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.28980162739754,
+          55.797067165374756
+        ],
+        [
+          172.49384772777557,
+          55.797067165374756
+        ],
+        [
+          172.49384772777557,
+          66.279052734375
+        ],
+        [
+          46.28980162739754,
+          66.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.165721565485,
+          221.19809746742249
+        ],
+        [
+          101.92543029785156,
+          221.19809746742249
+        ],
+        [
+          101.92543029785156,
+          233.32940673828125
+        ],
+        [
+          46.165721565485,
+          233.32940673828125
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.00190323591232,
+          293.629150390625
+        ],
+        [
+          122.0216333270073,
+          293.629150390625
+        ],
+        [
+          122.0216333270073,
+          305.5843505859375
+        ],
+        [
+          46.00190323591232,
+          305.5843505859375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          226
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          365
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Caption",
+          6
+        ],
+        [
+          "Table",
+          6
+        ],
+        [
+          "TableGroup",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P093"
+}

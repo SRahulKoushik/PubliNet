@@ -1,0 +1,524 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Examining the Convergence of Denoising Diffusion Probabilistic\nModels: A Quantitative Analysis",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          68.83012676239014,
+          81.09378182888031
+        ],
+        [
+          544.3943681716919,
+          81.09378182888031
+        ],
+        [
+          544.3943681716919,
+          118.9742431640625
+        ],
+        [
+          68.83012676239014,
+          118.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.3020851612091,
+          202.7381591796875
+        ],
+        [
+          329.32635855674744,
+          202.7381591796875
+        ],
+        [
+          329.32635855674744,
+          214.693359375
+        ],
+        [
+          283.3020851612091,
+          214.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          45.87466782331467,
+          326.5341491699219
+        ],
+        [
+          131.04283565282822,
+          326.5341491699219
+        ],
+        [
+          131.04283565282822,
+          338.68898463249207
+        ],
+        [
+          45.87466782331467,
+          338.68898463249207
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Related Works",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.54517072439194,
+          610.8827848434448
+        ],
+        [
+          132.97095555067062,
+          609.3359098434448
+        ],
+        [
+          132.97095555067062,
+          621.1471252441406
+        ],
+        [
+          46.54517072439194,
+          621.6229162216187
+        ]
+      ]
+    },
+    {
+      "title": "1.2 Our contributions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.6440763771534,
+          103.58946454524994
+        ],
+        [
+          146.60434126853943,
+          103.58946454524994
+        ],
+        [
+          146.60434126853943,
+          113.95489132404327
+        ],
+        [
+          46.6440763771534,
+          113.95489132404327
+        ]
+      ]
+    },
+    {
+      "title": "2 Preliminaries",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          45.9778550863266,
+          289.64993619918823
+        ],
+        [
+          133.77950048446655,
+          289.64993619918823
+        ],
+        [
+          133.77950048446655,
+          301.6242980957031
+        ],
+        [
+          45.9778550863266,
+          301.6242980957031
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Denoising Diffusion Models",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.18615382909775,
+          484.161253452301
+        ],
+        [
+          187.74818086624146,
+          484.161253452301
+        ],
+        [
+          187.74818086624146,
+          494.8070983886719
+        ],
+        [
+          46.18615382909775,
+          494.8070983886719
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Additional Definitions",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.073199570178986,
+          173.98164761066437
+        ],
+        [
+          163.93717503547668,
+          173.98164761066437
+        ],
+        [
+          163.93717503547668,
+          184.14715576171875
+        ],
+        [
+          46.073199570178986,
+          184.14715576171875
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Our Approach",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          45.905081391334534,
+          589.8865203857422
+        ],
+        [
+          132.52806651592255,
+          589.8865203857422
+        ],
+        [
+          132.52806651592255,
+          599.9833302497864
+        ],
+        [
+          45.905081391334534,
+          599.9833302497864
+        ]
+      ]
+    },
+    {
+      "title": "3 Main Result",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.278069376945496,
+          54.787109375
+        ],
+        [
+          127.49760437011719,
+          54.787109375
+        ],
+        [
+          127.49760437011719,
+          66.7423095703125
+        ],
+        [
+          46.278069376945496,
+          66.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Theorem Statement",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.069323778152466,
+          79.76348876953125
+        ],
+        [
+          154.2515069246292,
+          79.76348876953125
+        ],
+        [
+          154.2515069246292,
+          89.72607421875
+        ],
+        [
+          46.069323778152466,
+          89.72607421875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Proof of the main theorem",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.2418694794178,
+          497.42852783203125
+        ],
+        [
+          181.1855010986328,
+          497.42852783203125
+        ],
+        [
+          181.1855010986328,
+          507.39111328125
+        ],
+        [
+          46.2418694794178,
+          507.39111328125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Special case using the forward process of Ho et al. (2020)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          45.464025378227234,
+          625.0684967041016
+        ],
+        [
+          310.8342890739441,
+          625.0684967041016
+        ],
+        [
+          310.8342890739441,
+          635.0310974121094
+        ],
+        [
+          45.464025378227234,
+          635.0310974121094
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          530
+        ],
+        [
+          "Line",
+          82
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          969
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "TextInlineMath",
+          8
+        ],
+        [
+          "Equation",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          873
+        ],
+        [
+          "Line",
+          158
+        ],
+        [
+          "TextInlineMath",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          1054
+        ],
+        [
+          "Line",
+          147
+        ],
+        [
+          "TextInlineMath",
+          11
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          857
+        ],
+        [
+          "Line",
+          117
+        ],
+        [
+          "TextInlineMath",
+          9
+        ],
+        [
+          "Equation",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\R015"
+}

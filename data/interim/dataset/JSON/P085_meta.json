@@ -1,0 +1,855 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Privacy Evaluation in Tabular Synthetic Data:\nCurrent Approaches and Future Directions",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          136.80123209953308,
+          99.8338623046875
+        ],
+        [
+          480.2687051296234,
+          99.8338623046875
+        ],
+        [
+          479.0733926296234,
+          136.9742431640625
+        ],
+        [
+          135.60591959953308,
+          136.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.2190064191818,
+          220.7381591796875
+        ],
+        [
+          329.12963247299194,
+          220.7381591796875
+        ],
+        [
+          328.2432861328125,
+          232.693359375
+        ],
+        [
+          282.0236939191818,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction and Relation to Prior Research",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.45300531387329,
+          356.59972286224365
+        ],
+        [
+          352.58946418762207,
+          356.59972286224365
+        ],
+        [
+          352.58946418762207,
+          368.8163757324219
+        ],
+        [
+          107.45300531387329,
+          368.8163757324219
+        ]
+      ]
+    },
+    {
+      "title": "2 Definitions and Notation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.23174774646759,
+          539.4944186210632
+        ],
+        [
+          251.42985141277313,
+          539.4944186210632
+        ],
+        [
+          251.42985141277313,
+          551.7563781738281
+        ],
+        [
+          107.23174774646759,
+          551.7563781738281
+        ]
+      ]
+    },
+    {
+      "title": "3 Synthetic Data Privacy Risks",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.05957144498825,
+          72.21786779165268
+        ],
+        [
+          275.4879412651062,
+          72.21786779165268
+        ],
+        [
+          275.4879412651062,
+          84.7423095703125
+        ],
+        [
+          106.05957144498825,
+          84.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "4 Mathematical Privacy Properties",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          108.0,
+          476.2503719329834
+        ],
+        [
+          297.0553286075592,
+          476.2503719329834
+        ],
+        [
+          295.8600161075592,
+          489.15032958984375
+        ],
+        [
+          106.85409969091415,
+          489.15032958984375
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Differential Privacy",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.78659701347351,
+          500.4713716506958
+        ],
+        [
+          215.78961825370789,
+          500.4713716506958
+        ],
+        [
+          214.59430575370789,
+          511.3856964111328
+        ],
+        [
+          106.59128451347351,
+          511.3856964111328
+        ]
+      ]
+    },
+    {
+      "title": "4.2 k-Anonymity",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.0529962182045,
+          681.4244012832642
+        ],
+        [
+          188.6239457130432,
+          679.8775262832642
+        ],
+        [
+          188.6239457130432,
+          691.4321136474609
+        ],
+        [
+          107.0529962182045,
+          692.2997331619263
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Plausible Deniability",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          108.0,
+          170.01724934577942
+        ],
+        [
+          220.51015055179596,
+          170.01724934577942
+        ],
+        [
+          219.31483805179596,
+          180.4261474609375
+        ],
+        [
+          107.0969249010086,
+          180.4261474609375
+        ]
+      ]
+    },
+    {
+      "title": "5 Statistical Privacy Indicators",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.05338835716248,
+          363.04815673828125
+        ],
+        [
+          274.2364525794983,
+          363.04815673828125
+        ],
+        [
+          274.2364525794983,
+          375.00335693359375
+        ],
+        [
+          107.05338835716248,
+          375.00335693359375
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Identical Records, Distances, and Nearest Neighbors",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.74513971805573,
+          388.14453125
+        ],
+        [
+          354.0290336608887,
+          388.14453125
+        ],
+        [
+          352.9902648925781,
+          398.10711669921875
+        ],
+        [
+          106.54982721805573,
+          398.10711669921875
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Other Statistical Indicators",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.18434453010559,
+          130.2074407339096
+        ],
+        [
+          248.28531646728516,
+          130.2074407339096
+        ],
+        [
+          248.28531646728516,
+          141.5220947265625
+        ],
+        [
+          107.18434453010559,
+          141.5220947265625
+        ]
+      ]
+    },
+    {
+      "title": "6 Computer Scientific Experimental Privacy Assessment",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.21745753288269,
+          220.7805998325348
+        ],
+        [
+          404.8302891254425,
+          220.7805998325348
+        ],
+        [
+          404.8302891254425,
+          234.0714111328125
+        ],
+        [
+          106.21745753288269,
+          234.0714111328125
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Relation to WP29 Attack Types",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.96870452165604,
+          517.3297505378723
+        ],
+        [
+          265.994749546051,
+          515.7828755378723
+        ],
+        [
+          265.994749546051,
+          527.9260864257812
+        ],
+        [
+          107.96870452165604,
+          528.6180481910706
+        ]
+      ]
+    },
+    {
+      "title": "7 Discussion",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.68102043867111,
+          634.8595833778381
+        ],
+        [
+          182.25524425506592,
+          633.3127083778381
+        ],
+        [
+          181.05993175506592,
+          646.9053344726562
+        ],
+        [
+          106.48570793867111,
+          647.1306338310242
+        ]
+      ]
+    },
+    {
+      "title": "7.1 The Assessment Frameworks",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          108.0,
+          659.1431322097778
+        ],
+        [
+          257.4976637363434,
+          657.5962572097778
+        ],
+        [
+          256.3023512363434,
+          669.5900955200195
+        ],
+        [
+          106.98225617408752,
+          670.4099979400635
+        ]
+      ]
+    },
+    {
+      "title": "7.2 Relation to Synthetic Data Risks",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.83684557676315,
+          227.48345732688904
+        ],
+        [
+          269.02786231040955,
+          227.48345732688904
+        ],
+        [
+          269.02786231040955,
+          238.84210205078125
+        ],
+        [
+          106.83684557676315,
+          238.84210205078125
+        ]
+      ]
+    },
+    {
+      "title": "7.3 Suggestions for Future Research",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.94173818826675,
+          353.9559724330902
+        ],
+        [
+          268.78397011756897,
+          353.9559724330902
+        ],
+        [
+          268.78397011756897,
+          364.26409912109375
+        ],
+        [
+          106.94173818826675,
+          364.26409912109375
+        ]
+      ]
+    },
+    {
+      "title": "A A Proof of Theorem 2.1",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.98862159252167,
+          662.1681489944458
+        ],
+        [
+          249.49301326274872,
+          662.1681489944458
+        ],
+        [
+          249.49301326274872,
+          674.9893493652344
+        ],
+        [
+          106.98862159252167,
+          674.9893493652344
+        ]
+      ]
+    },
+    {
+      "title": "B B Example on Synthetic Datasets",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.70586204528809,
+          101.861083984375
+        ],
+        [
+          296.6291198730469,
+          101.861083984375
+        ],
+        [
+          296.6291198730469,
+          113.8162841796875
+        ],
+        [
+          106.70586204528809,
+          113.8162841796875
+        ]
+      ]
+    },
+    {
+      "title": "C C Details of VerticalCAS Experiment",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.09938716888428,
+          279.56210947036743
+        ],
+        [
+          319.2378816604614,
+          279.56210947036743
+        ],
+        [
+          319.2378816604614,
+          291.8913269042969
+        ],
+        [
+          107.09938716888428,
+          291.8913269042969
+        ]
+      ]
+    },
+    {
+      "title": "C.1 Safeability Constraints",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.82917606830597,
+          304.98748779296875
+        ],
+        [
+          224.46688735485077,
+          304.98748779296875
+        ],
+        [
+          224.46688735485077,
+          314.9500732421875
+        ],
+        [
+          106.82917606830597,
+          314.9500732421875
+        ]
+      ]
+    },
+    {
+      "title": "C.2 Proximity Functions",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.46351099014282,
+          431.7767243385315
+        ],
+        [
+          213.72700381278992,
+          431.7767243385315
+        ],
+        [
+          213.72700381278992,
+          442.1800842285156
+        ],
+        [
+          107.46351099014282,
+          442.1800842285156
+        ]
+      ]
+    },
+    {
+      "title": "C.3 Structure of Predictors",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.98747253417969,
+          521.2405090332031
+        ],
+        [
+          224.22100710868835,
+          520.4587168693542
+        ],
+        [
+          224.22100710868835,
+          531.2030944824219
+        ],
+        [
+          106.98747253417969,
+          531.645236492157
+        ]
+      ]
+    },
+    {
+      "title": "C.4 Parameter Optimization",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.78698915243149,
+          681.1965179443359
+        ],
+        [
+          230.95284748077393,
+          679.8677544593811
+        ],
+        [
+          229.75753498077393,
+          691.1591186523438
+        ],
+        [
+          106.59167665243149,
+          691.3604578971863
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          164
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          273
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          351
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          181
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          246
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P085"
+}

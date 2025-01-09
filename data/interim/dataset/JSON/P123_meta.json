@@ -1,0 +1,733 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Acquiring Cross-Domain Representations for\nContextual Detection Using Extensive Emoji Data",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.2770004272461,
+          99.8338623046875
+        ],
+        [
+          490.9787678718567,
+          99.8338623046875
+        ],
+        [
+          489.7834553718567,
+          136.9742431640625
+        ],
+        [
+          122.31758880615234,
+          136.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.6668838262558,
+          220.7381591796875
+        ],
+        [
+          329.47880029678345,
+          220.7381591796875
+        ],
+        [
+          328.28348779678345,
+          232.693359375
+        ],
+        [
+          282.4715713262558,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          419.8831787109375
+        ],
+        [
+          191.885192155838,
+          419.8831787109375
+        ],
+        [
+          190.8136749267578,
+          431.83837890625
+        ],
+        [
+          106.92173910140991,
+          431.83837890625
+        ]
+      ]
+    },
+    {
+      "title": "2 Related work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.96991741657257,
+          180.74873006343842
+        ],
+        [
+          196.79728889465332,
+          180.74873006343842
+        ],
+        [
+          195.60197639465332,
+          194.65435791015625
+        ],
+        [
+          106.77460491657257,
+          194.65435791015625
+        ]
+      ]
+    },
+    {
+      "title": "3 Method",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.18856686353683,
+          496.26684379577637
+        ],
+        [
+          168.61176323890686,
+          496.26684379577637
+        ],
+        [
+          168.61176323890686,
+          510.849365234375
+        ],
+        [
+          107.18856686353683,
+          510.849365234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Pretraining",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.22194427251816,
+          524.4729537963867
+        ],
+        [
+          181.7362529039383,
+          524.4729537963867
+        ],
+        [
+          181.7362529039383,
+          536.5931243896484
+        ],
+        [
+          107.22194427251816,
+          536.5931243896484
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Model",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.80474483966827,
+          214.59076309204102
+        ],
+        [
+          158.4722353219986,
+          214.59076309204102
+        ],
+        [
+          157.53404235839844,
+          224.93804931640625
+        ],
+        [
+          106.60943233966827,
+          224.93804931640625
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Transfer learning",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.32513153553009,
+          566.2465209960938
+        ],
+        [
+          206.32748758792877,
+          566.2465209960938
+        ],
+        [
+          206.32748758792877,
+          576.2091217041016
+        ],
+        [
+          107.32513153553009,
+          576.2091217041016
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          108.0,
+          264.22216796875
+        ],
+        [
+          192.12397742271423,
+          264.22216796875
+        ],
+        [
+          191.01690673828125,
+          276.1773681640625
+        ],
+        [
+          107.2060672044754,
+          276.1773681640625
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Emoji prediction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.99561619758606,
+          287.3350052833557
+        ],
+        [
+          204.7588770389557,
+          287.3350052833557
+        ],
+        [
+          203.5635645389557,
+          298.18310546875
+        ],
+        [
+          106.80030369758606,
+          298.18310546875
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Benchmarking",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.68492364883423,
+          648.7425231933594
+        ],
+        [
+          195.8372962474823,
+          647.325692653656
+        ],
+        [
+          195.8372962474823,
+          658.7051239013672
+        ],
+        [
+          106.68492364883423,
+          659.0092062950134
+        ]
+      ]
+    },
+    {
+      "title": "5 Model Analysis",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.27303177118301,
+          541.9111275672913
+        ],
+        [
+          207.11612462997437,
+          541.9111275672913
+        ],
+        [
+          207.11612462997437,
+          554.8323516845703
+        ],
+        [
+          107.27303177118301,
+          554.8323516845703
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Importance of emoji diversity",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.74296021461487,
+          565.2667779922485
+        ],
+        [
+          257.4990134239197,
+          565.2667779922485
+        ],
+        [
+          257.4990134239197,
+          576.8621063232422
+        ],
+        [
+          106.74296021461487,
+          576.8621063232422
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Model architecture",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          107.77832561731339,
+          398.6665277481079
+        ],
+        [
+          214.3099229335785,
+          398.6665277481079
+        ],
+        [
+          213.1146104335785,
+          410.0731201171875
+        ],
+        [
+          106.58301311731339,
+          410.0731201171875
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Analyzing the effect of pretraining",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          107.31059503555298,
+          610.0225067138672
+        ],
+        [
+          278.2992310523987,
+          608.5254149436951
+        ],
+        [
+          278.2992310523987,
+          619.985107421875
+        ],
+        [
+          107.31059503555298,
+          621.0892424583435
+        ]
+      ]
+    },
+    {
+      "title": "5.4 Comparing with human-level agreement",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          107.0573371052742,
+          517.5245056152344
+        ],
+        [
+          302.3802795410156,
+          517.5245056152344
+        ],
+        [
+          302.3802795410156,
+          527.4870910644531
+        ],
+        [
+          107.0573371052742,
+          527.4870910644531
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          107.46628332138062,
+          186.18305611610413
+        ],
+        [
+          183.8237636089325,
+          186.18305611610413
+        ],
+        [
+          183.8237636089325,
+          198.51031494140625
+        ],
+        [
+          107.46628332138062,
+          198.51031494140625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          82
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          162
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          28
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P123"
+}

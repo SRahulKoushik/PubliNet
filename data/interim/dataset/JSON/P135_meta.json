@@ -1,0 +1,552 @@
+{
+  "table_of_contents": [
+    {
+      "title": "A Decentralized Local Stochastic Extragradient\nApproach for Variational Inequalities",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          130.21499633789062,
+          99.8338623046875
+        ],
+        [
+          483.9223093986511,
+          99.8338623046875
+        ],
+        [
+          482.7269968986511,
+          136.9742431640625
+        ],
+        [
+          129.76655101776123,
+          136.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.75799560546875,
+          220.7381591796875
+        ],
+        [
+          329.4278039932251,
+          220.7381591796875
+        ],
+        [
+          328.2432861328125,
+          232.693359375
+        ],
+        [
+          283.01277780532837,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          466.2561340332031
+        ],
+        [
+          192.75616014003754,
+          466.2561340332031
+        ],
+        [
+          191.56084764003754,
+          478.2113342285156
+        ],
+        [
+          106.92981898784637,
+          478.2113342285156
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.578298330307,
+          72.16054683923721
+        ],
+        [
+          197.28034937381744,
+          72.16054683923721
+        ],
+        [
+          197.28034937381744,
+          84.7423095703125
+        ],
+        [
+          106.578298330307,
+          84.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "3 Algorithm",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.87340569496155,
+          200.48862862586975
+        ],
+        [
+          180.75109040737152,
+          200.48862862586975
+        ],
+        [
+          180.75109040737152,
+          213.1962890625
+        ],
+        [
+          106.87340569496155,
+          213.1962890625
+        ]
+      ]
+    },
+    {
+      "title": "4 Setting and Assumptions",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.4990770816803,
+          170.025146484375
+        ],
+        [
+          252.8935511112213,
+          170.025146484375
+        ],
+        [
+          252.8935511112213,
+          181.9803466796875
+        ],
+        [
+          107.4990770816803,
+          181.9803466796875
+        ]
+      ]
+    },
+    {
+      "title": "5 Main Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          108.00003051757812,
+          592.6201477050781
+        ],
+        [
+          194.12116849422455,
+          592.2250685691833
+        ],
+        [
+          194.12116849422455,
+          604.5753479003906
+        ],
+        [
+          108.00003051757812,
+          604.5753479003906
+        ]
+      ]
+    },
+    {
+      "title": "6 Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.88334596157074,
+          655.6971588134766
+        ],
+        [
+          191.01690673828125,
+          655.6971588134766
+        ],
+        [
+          191.01690673828125,
+          667.6523513793945
+        ],
+        [
+          106.88334596157074,
+          667.6523513793945
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Verifying Theoretical Convergence Rate",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.8324043750763,
+          74.31646728515625
+        ],
+        [
+          301.0835258960724,
+          74.31646728515625
+        ],
+        [
+          301.0835258960724,
+          84.279052734375
+        ],
+        [
+          106.8324043750763,
+          84.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "6.2 Training GANs",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          106.96814829111099,
+          514.9495544433594
+        ],
+        [
+          196.11281490325928,
+          514.9495544433594
+        ],
+        [
+          196.11281490325928,
+          524.9121398925781
+        ],
+        [
+          106.96814829111099,
+          524.9121398925781
+        ]
+      ]
+    },
+    {
+      "title": "7 Results",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          108.0,
+          158.05466043949127
+        ],
+        [
+          164.43951416015625,
+          158.05466043949127
+        ],
+        [
+          164.43951416015625,
+          171.71533203125
+        ],
+        [
+          108.0,
+          171.71533203125
+        ]
+      ]
+    },
+    {
+      "title": "8 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          107.01047194004059,
+          231.44505858421326
+        ],
+        [
+          183.57268524169922,
+          231.44505858421326
+        ],
+        [
+          183.57268524169922,
+          245.04034423828125
+        ],
+        [
+          107.01047194004059,
+          245.04034423828125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          153
+        ],
+        [
+          "Line",
+          60
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          362
+        ],
+        [
+          "Line",
+          68
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "Equation",
+          7
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          316
+        ],
+        [
+          "Line",
+          91
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          340
+        ],
+        [
+          "Line",
+          80
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P135"
+}

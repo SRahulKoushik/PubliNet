@@ -1,0 +1,762 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Graph Neural Networks Without Training: Harnessing the Power of\nLabels as Input Features",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          52.98698329925537,
+          81.53845882415771
+        ],
+        [
+          560.8745641708374,
+          81.53845882415771
+        ],
+        [
+          560.8745641708374,
+          118.9742431640625
+        ],
+        [
+          52.98698329925537,
+          118.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.32736444473267,
+          202.7381591796875
+        ],
+        [
+          329.22141122817993,
+          202.7381591796875
+        ],
+        [
+          329.22141122817993,
+          214.693359375
+        ],
+        [
+          283.32736444473267,
+          214.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          45.9315142929554,
+          327.1370837688446
+        ],
+        [
+          130.6785932779312,
+          327.1370837688446
+        ],
+        [
+          130.6785932779312,
+          339.4484016895294
+        ],
+        [
+          45.9315142929554,
+          339.4484016895294
+        ]
+      ]
+    },
+    {
+      "title": "2 Background",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.231154054403305,
+          53.682730078697205
+        ],
+        [
+          127.62911987304688,
+          53.682730078697205
+        ],
+        [
+          127.62911987304688,
+          66.7423095703125
+        ],
+        [
+          46.231154054403305,
+          66.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Notations",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.3226820230484,
+          79.8964501619339
+        ],
+        [
+          110.96356093883514,
+          79.8964501619339
+        ],
+        [
+          110.96356093883514,
+          91.70306396484375
+        ],
+        [
+          46.3226820230484,
+          91.70306396484375
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Transductive Node Classification",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.12496191263199,
+          175.8955796957016
+        ],
+        [
+          209.84289479255676,
+          175.8955796957016
+        ],
+        [
+          209.84289479255676,
+          187.62408447265625
+        ],
+        [
+          46.12496191263199,
+          187.62408447265625
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Graph Neural Networks",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.2091258764267,
+          356.48928236961365
+        ],
+        [
+          174.3919461965561,
+          356.48928236961365
+        ],
+        [
+          174.3919461965561,
+          368.4080810546875
+        ],
+        [
+          46.2091258764267,
+          368.4080810546875
+        ]
+      ]
+    },
+    {
+      "title": "3 LaF is Admissible, but Not Explored Well",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          45.91265970468521,
+          498.2237105369568
+        ],
+        [
+          278.24141335487366,
+          498.2237105369568
+        ],
+        [
+          278.24141335487366,
+          511.08331298828125
+        ],
+        [
+          45.91265970468521,
+          511.08331298828125
+        ]
+      ]
+    },
+    {
+      "title": "4 LaF Strengthens the Expressive Power of GNNs",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.205952286720276,
+          179.66119384765625
+        ],
+        [
+          308.7623291015625,
+          179.66119384765625
+        ],
+        [
+          308.7623291015625,
+          191.61639404296875
+        ],
+        [
+          46.205952286720276,
+          191.61639404296875
+        ]
+      ]
+    },
+    {
+      "title": "5 Training-free Graph Neural Networks",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.29940903186798,
+          221.78314208984375
+        ],
+        [
+          259.7579650878906,
+          221.78314208984375
+        ],
+        [
+          259.7579650878906,
+          233.73834228515625
+        ],
+        [
+          46.29940903186798,
+          233.73834228515625
+        ]
+      ]
+    },
+    {
+      "title": "6 Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          46.567422330379486,
+          163.02051723003387
+        ],
+        [
+          131.51334768533707,
+          163.02051723003387
+        ],
+        [
+          131.51334768533707,
+          175.828369140625
+        ],
+        [
+          46.567422330379486,
+          175.828369140625
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Experimental Setup",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          46.705455243587494,
+          186.64180076122284
+        ],
+        [
+          156.18307399749756,
+          186.64180076122284
+        ],
+        [
+          156.18307399749756,
+          198.2510986328125
+        ],
+        [
+          46.705455243587494,
+          198.2510986328125
+        ]
+      ]
+    },
+    {
+      "title": "6.2 TFGNNs Outperform Existing GNNs in Training-free Setting",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          46.36732202768326,
+          274.44273591041565
+        ],
+        [
+          331.840096950531,
+          274.44273591041565
+        ],
+        [
+          331.840096950531,
+          286.0940856933594
+        ],
+        [
+          46.36732202768326,
+          286.0940856933594
+        ]
+      ]
+    },
+    {
+      "title": "6.3 Deep TFGNNs Perform Better in Training-free Setting",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          45.59155261516571,
+          529.7835083007812
+        ],
+        [
+          302.3893486261368,
+          528.2666873931885
+        ],
+        [
+          302.3893486261368,
+          539.7461090087891
+        ],
+        [
+          45.59155261516571,
+          540.8420333862305
+        ]
+      ]
+    },
+    {
+      "title": "6.4 TFGNNs Converge Fast",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          46.79999923706055,
+          671.4415626525879
+        ],
+        [
+          173.0544970035553,
+          669.8946876525879
+        ],
+        [
+          171.8591845035553,
+          682.1341171264648
+        ],
+        [
+          45.68181753158569,
+          682.8828105926514
+        ]
+      ]
+    },
+    {
+      "title": "6.5 TFGNNs are Robust to Feature Noise",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.04569512605667,
+          114.2664567232132
+        ],
+        [
+          230.56216764450073,
+          114.2664567232132
+        ],
+        [
+          230.56216764450073,
+          126.11810302734375
+        ],
+        [
+          46.04569512605667,
+          126.11810302734375
+        ]
+      ]
+    },
+    {
+      "title": "7 Related Work",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.79999923706055,
+          219.54571509361267
+        ],
+        [
+          138.5637690424919,
+          219.54571509361267
+        ],
+        [
+          137.3684565424919,
+          233.21038818359375
+        ],
+        [
+          45.91335278749466,
+          233.21038818359375
+        ]
+      ]
+    },
+    {
+      "title": "7.1 Labels as Features and Training-free GNNs",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.79999923706055,
+          245.7180347442627
+        ],
+        [
+          257.42985105514526,
+          245.7180347442627
+        ],
+        [
+          256.23453855514526,
+          257.453125
+        ],
+        [
+          45.70045781135559,
+          257.453125
+        ]
+      ]
+    },
+    {
+      "title": "7.2 Speeding up GNNs",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.69551953673363,
+          407.6955041885376
+        ],
+        [
+          152.39606952667236,
+          407.6955041885376
+        ],
+        [
+          151.20075702667236,
+          420.1720886230469
+        ],
+        [
+          45.50020703673363,
+          420.1720886230469
+        ]
+      ]
+    },
+    {
+      "title": "7.3 Expressive Power of GNNs",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.79999923706055,
+          598.5255346298218
+        ],
+        [
+          185.19502794742584,
+          596.9786596298218
+        ],
+        [
+          183.99971544742584,
+          610.1891326904297
+        ],
+        [
+          45.82550910115242,
+          610.5416679382324
+        ]
+      ]
+    },
+    {
+      "title": "8 Limitations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          46.4383630156517,
+          146.5225864648819
+        ],
+        [
+          124.76040476560593,
+          146.5225864648819
+        ],
+        [
+          124.76040476560593,
+          160.59033203125
+        ],
+        [
+          46.4383630156517,
+          160.59033203125
+        ]
+      ]
+    },
+    {
+      "title": "9 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          45.918528109788895,
+          346.1979467868805
+        ],
+        [
+          123.39327156543732,
+          346.1979467868805
+        ],
+        [
+          123.39327156543732,
+          359.4443664550781
+        ],
+        [
+          45.918528109788895,
+          359.4443664550781
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          507
+        ],
+        [
+          "Line",
+          76
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          717
+        ],
+        [
+          "Line",
+          94
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "TextInlineMath",
+          7
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          698
+        ],
+        [
+          "Line",
+          112
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "TextInlineMath",
+          4
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          158
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          57
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P004"
+}

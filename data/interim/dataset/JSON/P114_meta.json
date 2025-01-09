@@ -1,0 +1,315 @@
+{
+  "table_of_contents": [
+    {
+      "title": "An Empathetic AI Painter: A System for\nComputational Creativity Through Embodied\nConversational Interaction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          134.86864364147186,
+          99.8338623046875
+        ],
+        [
+          478.1059584617615,
+          99.8338623046875
+        ],
+        [
+          476.9106459617615,
+          157.33276104927063
+        ],
+        [
+          133.67333114147186,
+          157.33276104927063
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.18513655662537,
+          237.37615966796875
+        ],
+        [
+          328.74044823646545,
+          237.37615966796875
+        ],
+        [
+          328.74044823646545,
+          249.33135986328125
+        ],
+        [
+          283.18513655662537,
+          249.33135986328125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.84570968151093,
+          360.42572236061096
+        ],
+        [
+          191.74044728279114,
+          360.42572236061096
+        ],
+        [
+          191.74044728279114,
+          372.8053894042969
+        ],
+        [
+          107.84570968151093,
+          372.8053894042969
+        ]
+      ]
+    },
+    {
+      "title": "2 System Description",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.11422461271286,
+          565.7921600341797
+        ],
+        [
+          225.51568579673767,
+          565.7921600341797
+        ],
+        [
+          225.51568579673767,
+          577.7473602294922
+        ],
+        [
+          107.11422461271286,
+          577.7473602294922
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Big-5 Personality Mapping",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.29965162277222,
+          186.67774879932404
+        ],
+        [
+          245.56394505500793,
+          186.67774879932404
+        ],
+        [
+          245.56394505500793,
+          197.31207275390625
+        ],
+        [
+          107.29965162277222,
+          197.31207275390625
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Empathic Conversational Avatar",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.00428891181946,
+          658.9080891609192
+        ],
+        [
+          270.72916173934937,
+          658.9080891609192
+        ],
+        [
+          270.72916173934937,
+          669.0931167602539
+        ],
+        [
+          107.00428891181946,
+          669.0931167602539
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Generative AI Portraiture System",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.57258033752441,
+          549.2705078125
+        ],
+        [
+          276.1258327960968,
+          549.2705078125
+        ],
+        [
+          274.9305202960968,
+          559.2521967887878
+        ],
+        [
+          106.37726783752441,
+          559.2521967887878
+        ]
+      ]
+    },
+    {
+      "title": "3 Conclusion",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          108.0,
+          143.6386946439743
+        ],
+        [
+          184.34913861751556,
+          143.6386946439743
+        ],
+        [
+          183.15382611751556,
+          156.7713623046875
+        ],
+        [
+          106.91390544176102,
+          156.7713623046875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P114"
+}

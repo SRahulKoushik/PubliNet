@@ -1,0 +1,393 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Enhancing Urban Crop Cultivation Using\nDrone-Based Swarm Strategies: A Sociobiological\nApproach to Automated Pollination",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          120.15278112888336,
+          99.8338623046875
+        ],
+        [
+          492.80281591415405,
+          99.8338623046875
+        ],
+        [
+          491.60750341415405,
+          157.04558980464935
+        ],
+        [
+          118.95746862888336,
+          157.04558980464935
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.68660020828247,
+          240.6641845703125
+        ],
+        [
+          328.73019790649414,
+          240.6641845703125
+        ],
+        [
+          328.73019790649414,
+          252.619384765625
+        ],
+        [
+          283.68660020828247,
+          252.619384765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.34213030338287,
+          503.295166015625
+        ],
+        [
+          190.8136749267578,
+          503.295166015625
+        ],
+        [
+          190.8136749267578,
+          515.2503662109375
+        ],
+        [
+          107.34213030338287,
+          515.2503662109375
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.40379643440247,
+          260.0503499507904
+        ],
+        [
+          198.2090803384781,
+          260.0503499507904
+        ],
+        [
+          197.09014892578125,
+          273.0733642578125
+        ],
+        [
+          106.20848393440247,
+          273.0733642578125
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.17268979549408,
+          138.00078892707825
+        ],
+        [
+          195.2512217760086,
+          138.00078892707825
+        ],
+        [
+          194.0559092760086,
+          151.08734130859375
+        ],
+        [
+          105.97737729549408,
+          151.08734130859375
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.30599880218506,
+          568.4797253608704
+        ],
+        [
+          192.83238101005554,
+          568.4797253608704
+        ],
+        [
+          192.83238101005554,
+          581.9613647460938
+        ],
+        [
+          107.30599880218506,
+          581.9613647460938
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.17489671707153,
+          500.6277208328247
+        ],
+        [
+          164.94205391407013,
+          500.6277208328247
+        ],
+        [
+          164.94205391407013,
+          513.2703857421875
+        ],
+        [
+          107.17489671707153,
+          513.2703857421875
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          108.0,
+          293.7131266593933
+        ],
+        [
+          184.72249138355255,
+          293.7131266593933
+        ],
+        [
+          183.52717888355255,
+          305.9483337402344
+        ],
+        [
+          107.07488304376602,
+          305.9483337402344
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          82
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          145
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P022"
+}

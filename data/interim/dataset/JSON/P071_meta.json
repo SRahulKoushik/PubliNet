@@ -1,0 +1,465 @@
+{
+  "table_of_contents": [
+    {
+      "title": "The Significance of Fillers in Textual Representations\nof Speech Transcripts",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          109.45523035526276,
+          99.8338623046875
+        ],
+        [
+          503.50904846191406,
+          99.8338623046875
+        ],
+        [
+          502.31373596191406,
+          136.9742431640625
+        ],
+        [
+          108.25991785526276,
+          136.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.71476125717163,
+          220.7381591796875
+        ],
+        [
+          329.0042209625244,
+          220.7381591796875
+        ],
+        [
+          328.2432861328125,
+          232.693359375
+        ],
+        [
+          282.51944875717163,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.98315894603729,
+          359.2481384277344
+        ],
+        [
+          190.86251199245453,
+          359.2481384277344
+        ],
+        [
+          190.86251199245453,
+          371.2033386230469
+        ],
+        [
+          107.98315894603729,
+          371.2033386230469
+        ]
+      ]
+    },
+    {
+      "title": "2 Models and Data Description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.11223661899567,
+          70.58812701702118
+        ],
+        [
+          278.3468531370163,
+          70.58812701702118
+        ],
+        [
+          278.3468531370163,
+          84.7423095703125
+        ],
+        [
+          106.11223661899567,
+          84.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Model Description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.07624185085297,
+          96.15996927022934
+        ],
+        [
+          211.84672486782074,
+          96.15996927022934
+        ],
+        [
+          211.84672486782074,
+          108.36407470703125
+        ],
+        [
+          107.07624185085297,
+          108.36407470703125
+        ]
+      ]
+    },
+    {
+      "title": "2.1.1 Spoken Language Modeling",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.98946964740753,
+          174.8134446144104
+        ],
+        [
+          259.70369160175323,
+          174.8134446144104
+        ],
+        [
+          258.50837910175323,
+          186.81409406661987
+        ],
+        [
+          106.79415714740753,
+          186.81409406661987
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2 Pre-processing",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.79037249088287,
+          343.5039210319519
+        ],
+        [
+          204.45951998233795,
+          343.5039210319519
+        ],
+        [
+          203.26420748233795,
+          356.1108956336975
+        ],
+        [
+          106.59505999088287,
+          356.1108956336975
+        ]
+      ]
+    },
+    {
+      "title": "2.1.3 Confidence and Sentiment Prediction",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          108.0,
+          452.99673557281494
+        ],
+        [
+          298.15342712402344,
+          452.99673557281494
+        ],
+        [
+          296.95811462402344,
+          465.403076171875
+        ],
+        [
+          106.84311980009079,
+          465.403076171875
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Data Description",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.71305727958679,
+          542.0539283752441
+        ],
+        [
+          205.60268712043762,
+          542.0539283752441
+        ],
+        [
+          204.40737462043762,
+          554.6049156188965
+        ],
+        [
+          106.51774477958679,
+          554.6049156188965
+        ]
+      ]
+    },
+    {
+      "title": "Token. Raw Output Tokenizer\n(umm) Things that (uhh) you usually wouldn't find funny were in this movie. ['umm', 'things', 'that', 'uh', 'you', 'usually', 'wouldn', \"'\", 't', 'find', 'funny', 'were', 'in', 'this', 'movie', '.'] ['umm', 'things', 'that', 'uh', 'you', 'usually', 'wouldn', \"'\", 't', 'find', 'funny', 'were', 'in', 'this', 'movie', '.'] ['[FILLERUMM]', 'things', 'that', '[FILLERUHH]', 'you', 'usually', 'wouldn', \"'\", 't', 'find', 'funny', 'were', 'in', 'this', 'movie', '.'] ['[FILLER]', 'things', 'that', '[FILLER]', 'you', 'usually', 'wouldn', \"'\", 't', 'find', 'funny', 'were', 'in', 'this', 'movie', '.']",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          98.80263876914978,
+          67.29838585853577
+        ],
+        [
+          2393.320068359375,
+          67.29838585853577
+        ],
+        [
+          2393.320068359375,
+          117.98297119140625
+        ],
+        [
+          98.80263876914978,
+          117.98297119140625
+        ]
+      ]
+    },
+    {
+      "title": "3 Experiments and Analysis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          108.00001525878906,
+          159.53845524787903
+        ],
+        [
+          262.49677884578705,
+          159.53845524787903
+        ],
+        [
+          261.30146634578705,
+          173.27435302734375
+        ],
+        [
+          107.0436669588089,
+          173.27435302734375
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Fillers Can Be Leveraged to Model Spoken Language",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.73406863212585,
+          185.82398879528046
+        ],
+        [
+          359.4703538417816,
+          185.82398879528046
+        ],
+        [
+          358.2750413417816,
+          197.46807861328125
+        ],
+        [
+          106.53875613212585,
+          197.46807861328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Fillers are a discriminative feature for FOAK and stance prediction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.8941525220871,
+          179.9532115459442
+        ],
+        [
+          418.11271047592163,
+          179.9532115459442
+        ],
+        [
+          416.91739797592163,
+          190.32623863220215
+        ],
+        [
+          106.6988400220871,
+          190.32623863220215
+        ]
+      ]
+    },
+    {
+      "title": "4 Conclusion",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.80006659030914,
+          379.50848937034607
+        ],
+        [
+          183.60768592357635,
+          379.50848937034607
+        ],
+        [
+          183.60768592357635,
+          391.89434814453125
+        ],
+        [
+          106.80006659030914,
+          391.89434814453125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          151
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          177
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P071"
+}

@@ -1,0 +1,713 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Addressing Min-Max Challenges in Nonconvex-Nonconcave Problems\nwith Solutions Exhibiting Weak Minty Properties",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          48.17957854270935,
+          81.8338623046875
+        ],
+        [
+          563.4874134063721,
+          81.8338623046875
+        ],
+        [
+          563.4874134063721,
+          118.9742431640625
+        ],
+        [
+          48.17957854270935,
+          118.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          282.9755337238312,
+          202.7381591796875
+        ],
+        [
+          328.4706566333771,
+          202.7381591796875
+        ],
+        [
+          328.4706566333771,
+          214.693359375
+        ],
+        [
+          282.9755337238312,
+          214.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.19461217522621,
+          335.82513427734375
+        ],
+        [
+          129.61366271972656,
+          335.82513427734375
+        ],
+        [
+          129.61366271972656,
+          347.78033447265625
+        ],
+        [
+          46.19461217522621,
+          347.78033447265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Contribution",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.43671694397926,
+          244.33189916610718
+        ],
+        [
+          125.60015666484833,
+          244.33189916610718
+        ],
+        [
+          125.60015666484833,
+          255.050048828125
+        ],
+        [
+          46.43671694397926,
+          255.050048828125
+        ]
+      ]
+    },
+    {
+      "title": "1.2 Related literature",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.799991607666016,
+          409.2768874168396
+        ],
+        [
+          145.79708218574524,
+          409.2768874168396
+        ],
+        [
+          144.60176968574524,
+          420.17010498046875
+        ],
+        [
+          45.906307965517044,
+          420.17010498046875
+        ]
+      ]
+    },
+    {
+      "title": "2 Preliminaries",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.2156098484993,
+          153.33221435546875
+        ],
+        [
+          133.58279418945312,
+          153.33221435546875
+        ],
+        [
+          133.58279418945312,
+          165.33216726779938
+        ],
+        [
+          46.2156098484993,
+          165.33216726779938
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Notions of solution",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          45.923904061317444,
+          176.15200746059418
+        ],
+        [
+          149.5924036502838,
+          176.15200746059418
+        ],
+        [
+          149.5924036502838,
+          187.1561279296875
+        ],
+        [
+          45.923904061317444,
+          187.1561279296875
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Notions of monotonicity",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          45.89379143714905,
+          326.6248183250427
+        ],
+        [
+          172.40287148952484,
+          326.6248183250427
+        ],
+        [
+          172.40287148952484,
+          336.7970037460327
+        ],
+        [
+          45.89379143714905,
+          336.7970037460327
+        ]
+      ]
+    },
+    {
+      "title": "3 OGDA for problems with weak Minty solutions",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          45.37101548910141,
+          54.787109375
+        ],
+        [
+          306.22784423828125,
+          54.787109375
+        ],
+        [
+          306.22784423828125,
+          66.7423095703125
+        ],
+        [
+          45.37101548910141,
+          66.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Improved bounds under monotonicity",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          45.74055629968643,
+          379.489501953125
+        ],
+        [
+          230.7494659423828,
+          379.489501953125
+        ],
+        [
+          230.7494659423828,
+          389.45208740234375
+        ],
+        [
+          45.74055629968643,
+          389.45208740234375
+        ]
+      ]
+    },
+    {
+      "title": "3.2 OGDA+ stochastic",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.18860241770744,
+          597.5315093994141
+        ],
+        [
+          148.46523213386536,
+          597.5315093994141
+        ],
+        [
+          148.46523213386536,
+          607.4941101074219
+        ],
+        [
+          46.18860241770744,
+          607.4941101074219
+        ]
+      ]
+    },
+    {
+      "title": "4 EG+ with adaptive step sizes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          46.379058837890625,
+          198.19915771484375
+        ],
+        [
+          211.61169683933258,
+          198.19915771484375
+        ],
+        [
+          211.61169683933258,
+          210.15435791015625
+        ],
+        [
+          46.379058837890625,
+          210.15435791015625
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 3 EG+ with adaptive step size",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          220.6329174041748,
+          516.1855163574219
+        ],
+        [
+          390.1419675350189,
+          516.1855163574219
+        ],
+        [
+          390.1419675350189,
+          526.4302453994751
+        ],
+        [
+          220.6329174041748,
+          526.4302453994751
+        ]
+      ]
+    },
+    {
+      "title": "end for",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          290.8763494491577,
+          642.3245086669922
+        ],
+        [
+          321.4052610397339,
+          642.274745464325
+        ],
+        [
+          321.4052610397339,
+          652.287109375
+        ],
+        [
+          290.8763494491577,
+          652.9067730903625
+        ]
+      ]
+    },
+    {
+      "title": "5 Numerical experiments",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.090854942798615,
+          208.08319091796875
+        ],
+        [
+          184.61719751358032,
+          208.08319091796875
+        ],
+        [
+          184.61719751358032,
+          220.03839111328125
+        ],
+        [
+          46.090854942798615,
+          220.03839111328125
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Von Neumann's ratio game",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.13391271233559,
+          288.7584533691406
+        ],
+        [
+          184.90155029296875,
+          288.7584533691406
+        ],
+        [
+          184.90155029296875,
+          298.7210388183594
+        ],
+        [
+          46.13391271233559,
+          298.7210388183594
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Forsaken",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.063842952251434,
+          415.9035339355469
+        ],
+        [
+          108.78588563203812,
+          415.9035339355469
+        ],
+        [
+          108.78588563203812,
+          425.8661193847656
+        ],
+        [
+          46.063842952251434,
+          425.8661193847656
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Lower bound example",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.001219272613525,
+          585.6565093994141
+        ],
+        [
+          164.59897792339325,
+          585.5354762077332
+        ],
+        [
+          164.59897792339325,
+          595.6191101074219
+        ],
+        [
+          46.001219272613525,
+          596.0017132759094
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          46.20210385322571,
+          53.47960478067398
+        ],
+        [
+          123.17059135437012,
+          53.47960478067398
+        ],
+        [
+          123.17059135437012,
+          66.7423095703125
+        ],
+        [
+          46.20210385322571,
+          66.7423095703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          221
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          275
+        ],
+        [
+          "Line",
+          70
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          457
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "Equation",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          705
+        ],
+        [
+          "Line",
+          113
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          559
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "TextInlineMath",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          563
+        ],
+        [
+          "Line",
+          115
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Equation",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          42
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\R014"
+}

@@ -1,0 +1,350 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Explainable Reinforcement Learning for Financial\nMarket Simulation: Unveiling the Mysteries of\nAdaptive Trading Agents in a Simulated Economy",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          118.25435435771942,
+          99.8338623046875
+        ],
+        [
+          495.1153779029846,
+          99.8338623046875
+        ],
+        [
+          493.9200654029846,
+          156.89923095703125
+        ],
+        [
+          117.05904185771942,
+          156.89923095703125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.5991076231003,
+          240.6641845703125
+        ],
+        [
+          329.56390357017517,
+          240.6641845703125
+        ],
+        [
+          328.36859107017517,
+          252.619384765625
+        ],
+        [
+          282.4037951231003,
+          252.619384765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.90806889533997,
+          437.8372378349304
+        ],
+        [
+          191.7830536365509,
+          437.8372378349304
+        ],
+        [
+          190.8136749267578,
+          449.8565812110901
+        ],
+        [
+          106.71275639533997,
+          449.8565812110901
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.4056932926178,
+          282.30022644996643
+        ],
+        [
+          199.04783821105957,
+          282.30022644996643
+        ],
+        [
+          199.04783821105957,
+          294.975341796875
+        ],
+        [
+          107.4056932926178,
+          294.975341796875
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.630635201931,
+          675.4800639152527
+        ],
+        [
+          194.44857716560364,
+          673.9331889152527
+        ],
+        [
+          194.44857716560364,
+          687.668342590332
+        ],
+        [
+          106.630635201931,
+          688.2469754219055
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.51452553272247,
+          462.12574338912964
+        ],
+        [
+          192.93402707576752,
+          462.12574338912964
+        ],
+        [
+          192.93402707576752,
+          474.93536376953125
+        ],
+        [
+          107.51452553272247,
+          474.93536376953125
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          108.0,
+          264.59417724609375
+        ],
+        [
+          163.57564115524292,
+          264.59417724609375
+        ],
+        [
+          163.57564115524292,
+          276.54937744140625
+        ],
+        [
+          108.0,
+          276.54937744140625
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.3828033208847,
+          599.4609861373901
+        ],
+        [
+          183.60011672973633,
+          599.4609861373901
+        ],
+        [
+          183.60011672973633,
+          611.9563598632812
+        ],
+        [
+          107.3828033208847,
+          611.9563598632812
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P003"
+}

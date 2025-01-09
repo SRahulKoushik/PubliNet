@@ -1,0 +1,621 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Detailed Action Identification in Baseball Game\nRecordings",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          128.04460501670837,
+          99.8338623046875
+        ],
+        [
+          484.35796666145325,
+          99.8338623046875
+        ],
+        [
+          483.16265416145325,
+          137.16626572608948
+        ],
+        [
+          126.84929251670837,
+          137.16626572608948
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.41487526893616,
+          220.7381591796875
+        ],
+        [
+          328.7640860080719,
+          220.7381591796875
+        ],
+        [
+          328.2432861328125,
+          232.693359375
+        ],
+        [
+          282.21956276893616,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.74007838964462,
+          384.8557541370392
+        ],
+        [
+          190.94234418869019,
+          384.8557541370392
+        ],
+        [
+          190.94234418869019,
+          397.44635009765625
+        ],
+        [
+          107.74007838964462,
+          397.44635009765625
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.60244673490524,
+          593.8389301300049
+        ],
+        [
+          197.55293154716492,
+          593.8389301300049
+        ],
+        [
+          197.55293154716492,
+          606.75537109375
+        ],
+        [
+          107.60244673490524,
+          606.75537109375
+        ]
+      ]
+    },
+    {
+      "title": "3 MLB-YouTube Dataset",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.52385479211807,
+          218.62115478515625
+        ],
+        [
+          244.05018615722656,
+          218.62115478515625
+        ],
+        [
+          244.05018615722656,
+          230.82856035232544
+        ],
+        [
+          107.52385479211807,
+          230.82856035232544
+        ]
+      ]
+    },
+    {
+      "title": "4 Segmented Video Recognition Approach",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.51672339439392,
+          72.787109375
+        ],
+        [
+          331.86114501953125,
+          72.787109375
+        ],
+        [
+          331.86114501953125,
+          84.7423095703125
+        ],
+        [
+          106.51672339439392,
+          84.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "5 Activity Detection in Continuous Videos",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.9740942120552,
+          633.2231597900391
+        ],
+        [
+          331.00887179374695,
+          633.2231597900391
+        ],
+        [
+          331.00887179374695,
+          645.1783599853516
+        ],
+        [
+          106.9740942120552,
+          645.1783599853516
+        ]
+      ]
+    },
+    {
+      "title": "6 Experiments",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.51302993297577,
+          568.9611511230469
+        ],
+        [
+          191.96137654781342,
+          568.9611511230469
+        ],
+        [
+          191.96137654781342,
+          580.9163513183594
+        ],
+        [
+          107.51302993297577,
+          580.9163513183594
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Implementation Details",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.12008845806122,
+          593.9595184326172
+        ],
+        [
+          230.72597229480743,
+          593.9595184326172
+        ],
+        [
+          230.72597229480743,
+          603.922119140625
+        ],
+        [
+          107.12008845806122,
+          603.922119140625
+        ]
+      ]
+    },
+    {
+      "title": "6.2 Segmented Video Activity Recognition",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.56643384695053,
+          74.31646728515625
+        ],
+        [
+          293.4836730957031,
+          74.31646728515625
+        ],
+        [
+          293.4836730957031,
+          84.279052734375
+        ],
+        [
+          106.56643384695053,
+          84.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "6.2.1 Multi-label Classification",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.24493455886841,
+          242.78253173828125
+        ],
+        [
+          244.9956817626953,
+          242.78253173828125
+        ],
+        [
+          244.9956817626953,
+          252.7451171875
+        ],
+        [
+          107.24493455886841,
+          252.7451171875
+        ]
+      ]
+    },
+    {
+      "title": "6.2.2 Pitch Speed Regression",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.0579845905304,
+          264.42977929115295
+        ],
+        [
+          237.2366280555725,
+          264.42977929115295
+        ],
+        [
+          237.2366280555725,
+          274.904052734375
+        ],
+        [
+          107.0579845905304,
+          274.904052734375
+        ]
+      ]
+    },
+    {
+      "title": "6.2.3 Pitch Type Classification",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.16650676727295,
+          517.7278933525085
+        ],
+        [
+          243.0794985294342,
+          517.7278933525085
+        ],
+        [
+          243.0794985294342,
+          527.8951110839844
+        ],
+        [
+          107.16650676727295,
+          527.8951110839844
+        ]
+      ]
+    },
+    {
+      "title": "6.3 Continuous Video Activity Detection",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.30696547031403,
+          648.6425170898438
+        ],
+        [
+          285.7918757200241,
+          647.743426322937
+        ],
+        [
+          285.7918757200241,
+          658.6051177978516
+        ],
+        [
+          107.30696547031403,
+          658.6767282485962
+        ]
+      ]
+    },
+    {
+      "title": "7 Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          106.63718301057816,
+          501.7671813964844
+        ],
+        [
+          183.06671142578125,
+          501.7671813964844
+        ],
+        [
+          183.06671142578125,
+          513.7223815917969
+        ],
+        [
+          106.63718301057816,
+          513.7223815917969
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          341
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          389
+        ],
+        [
+          "Line",
+          69
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\R006"
+}

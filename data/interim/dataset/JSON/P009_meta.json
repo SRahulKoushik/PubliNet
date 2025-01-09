@@ -1,0 +1,439 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Flexible Online Aggregations Using Basis Function Expansions",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          74.82529306411743,
+          80.81373882293701
+        ],
+        [
+          538.375855922699,
+          80.81373882293701
+        ],
+        [
+          538.375855922699,
+          99.2683357000351
+        ],
+        [
+          74.82529306411743,
+          99.2683357000351
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          282.8447417020798,
+          181.96875643730164
+        ],
+        [
+          329.1477620601654,
+          181.96875643730164
+        ],
+        [
+          329.1477620601654,
+          194.76837158203125
+        ],
+        [
+          282.8447417020798,
+          194.76837158203125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.486892491579056,
+          331.5364580154419
+        ],
+        [
+          130.98787236213684,
+          329.9895830154419
+        ],
+        [
+          129.79255986213684,
+          343.494384765625
+        ],
+        [
+          45.291579991579056,
+          343.64266204833984
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.73621991276741,
+          566.1841735839844
+        ],
+        [
+          136.96625876426697,
+          564.9354801177979
+        ],
+        [
+          135.89015197753906,
+          578.1393737792969
+        ],
+        [
+          45.54090741276741,
+          578.839038848877
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          46.79999923706055,
+          691.4100251197815
+        ],
+        [
+          133.43049681186676,
+          689.8631501197815
+        ],
+        [
+          132.23518431186676,
+          703.6423492431641
+        ],
+        [
+          46.09776297211647,
+          703.8004145622253
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.187111377716064,
+          282.6941442489624
+        ],
+        [
+          130.83960735797882,
+          282.6941442489624
+        ],
+        [
+          130.83960735797882,
+          296.350341796875
+        ],
+        [
+          46.187111377716064,
+          296.350341796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Comparing Different Basis Expansions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.50034832954407,
+          558.8258714675903
+        ],
+        [
+          235.49150025844574,
+          558.8258714675903
+        ],
+        [
+          235.49150025844574,
+          569.9911041259766
+        ],
+        [
+          46.50034832954407,
+          569.9911041259766
+        ]
+      ]
+    },
+    {
+      "title": "4.2 The Necessity of Ensembles of Dynamic Ensembles",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.13067984580994,
+          230.4242570400238
+        ],
+        [
+          286.5933530330658,
+          230.4242570400238
+        ],
+        [
+          286.5933530330658,
+          241.64910888671875
+        ],
+        [
+          46.13067984580994,
+          241.64910888671875
+        ]
+      ]
+    },
+    {
+      "title": "4.3 E-DOEBE Outperforms Other Methods",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          46.183946907520294,
+          491.2717423439026
+        ],
+        [
+          240.66764330863953,
+          491.2717423439026
+        ],
+        [
+          240.66764330863953,
+          502.4481201171875
+        ],
+        [
+          46.183946907520294,
+          502.4481201171875
+        ]
+      ]
+    },
+    {
+      "title": "5 Conclusion",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          45.95164105296135,
+          643.3848152160645
+        ],
+        [
+          122.67935979366302,
+          643.3848152160645
+        ],
+        [
+          122.67935979366302,
+          655.5023498535156
+        ],
+        [
+          45.95164105296135,
+          655.5023498535156
+        ]
+      ]
+    },
+    {
+      "title": "6 Tables",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.150642454624176,
+          192.32110595703125
+        ],
+        [
+          98.42190831899643,
+          192.32110595703125
+        ],
+        [
+          98.42190831899643,
+          204.27630615234375
+        ],
+        [
+          46.150642454624176,
+          204.27630615234375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          222
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          140
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          169
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P009"
+}

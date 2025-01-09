@@ -1,0 +1,362 @@
+{
+  "table_of_contents": [
+    {
+      "title": "GPT4Tools: Reimagining LLMs as Helpers",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          144.50017833709717,
+          99.8338623046875
+        ],
+        [
+          467.6930458545685,
+          99.8338623046875
+        ],
+        [
+          466.4977333545685,
+          117.49151265621185
+        ],
+        [
+          143.30486583709717,
+          117.49151265621185
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.50109112262726,
+          200.81317138671875
+        ],
+        [
+          329.8830134868622,
+          200.81317138671875
+        ],
+        [
+          328.6877009868622,
+          212.76837158203125
+        ],
+        [
+          282.30577862262726,
+          212.76837158203125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.68470472097397,
+          343.79815673828125
+        ],
+        [
+          190.8136749267578,
+          343.79815673828125
+        ],
+        [
+          190.8136749267578,
+          355.7599596977234
+        ],
+        [
+          107.68470472097397,
+          355.7599596977234
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.55322873592377,
+          208.5792739391327
+        ],
+        [
+          199.09210431575775,
+          208.5792739391327
+        ],
+        [
+          197.89679181575775,
+          221.952392578125
+        ],
+        [
+          106.35791623592377,
+          221.952392578125
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.41032600402832,
+          117.24517822265625
+        ],
+        [
+          193.11818647384644,
+          117.24517822265625
+        ],
+        [
+          193.11818647384644,
+          129.20037841796875
+        ],
+        [
+          107.41032600402832,
+          129.20037841796875
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.2807195186615,
+          122.5787855386734
+        ],
+        [
+          192.07580816745758,
+          122.5787855386734
+        ],
+        [
+          192.07580816745758,
+          134.62835693359375
+        ],
+        [
+          107.2807195186615,
+          134.62835693359375
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          108.0,
+          155.6690673828125
+        ],
+        [
+          163.203200340271,
+          155.6690673828125
+        ],
+        [
+          163.203200340271,
+          167.624267578125
+        ],
+        [
+          108.0,
+          167.624267578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          159
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P121"
+}

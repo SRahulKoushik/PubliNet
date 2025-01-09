@@ -1,0 +1,350 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BladeDISC++: Enhancing Memory Usage Through\nSymbolic Shape Analysis",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          116.64901041984558,
+          99.8338623046875
+        ],
+        [
+          497.92042994499207,
+          99.8338623046875
+        ],
+        [
+          496.72511744499207,
+          137.24043953418732
+        ],
+        [
+          115.45369791984558,
+          137.24043953418732
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.5777862071991,
+          220.7381591796875
+        ],
+        [
+          329.1949646472931,
+          220.7381591796875
+        ],
+        [
+          328.2432861328125,
+          232.693359375
+        ],
+        [
+          282.3824737071991,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.7405252456665,
+          428.7093629837036
+        ],
+        [
+          192.5316742658615,
+          428.7093629837036
+        ],
+        [
+          191.3363617658615,
+          441.0823669433594
+        ],
+        [
+          106.5452127456665,
+          441.0823669433594
+        ]
+      ]
+    },
+    {
+      "title": "2 Memory optimizations based on symbolic shapes",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          106.82697826623917,
+          654.466299533844
+        ],
+        [
+          374.96520495414734,
+          654.466299533844
+        ],
+        [
+          374.96520495414734,
+          666.7803421020508
+        ],
+        [
+          106.82697826623917,
+          666.7803421020508
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Symbolic shape graph analysis",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.83575123548508,
+          238.3394775390625
+        ],
+        [
+          260.78643798828125,
+          238.3394775390625
+        ],
+        [
+          260.78643798828125,
+          248.30206298828125
+        ],
+        [
+          106.83575123548508,
+          248.30206298828125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Operation scheduling",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.56638824939728,
+          615.1445159912109
+        ],
+        [
+          223.66889369487762,
+          615.1445159912109
+        ],
+        [
+          223.66889369487762,
+          625.1071166992188
+        ],
+        [
+          106.56638824939728,
+          625.1071166992188
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Rematerialization",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.34351646900177,
+          166.3168909549713
+        ],
+        [
+          208.20388162136078,
+          166.3168909549713
+        ],
+        [
+          208.20388162136078,
+          176.75036644935608
+        ],
+        [
+          107.34351646900177,
+          176.75036644935608
+        ]
+      ]
+    },
+    {
+      "title": "3 Evaluation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.55252653360367,
+          604.0354270935059
+        ],
+        [
+          183.25295519828796,
+          604.0354270935059
+        ],
+        [
+          183.25295519828796,
+          616.3523406982422
+        ],
+        [
+          107.55252653360367,
+          616.3523406982422
+        ]
+      ]
+    },
+    {
+      "title": "4 Conclusion",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.57807940244675,
+          283.751531124115
+        ],
+        [
+          184.3381769657135,
+          283.751531124115
+        ],
+        [
+          184.3381769657135,
+          296.3433532714844
+        ],
+        [
+          107.57807940244675,
+          296.3433532714844
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P030"
+}

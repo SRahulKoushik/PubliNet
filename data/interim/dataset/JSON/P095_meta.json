@@ -1,0 +1,585 @@
+{
+  "table_of_contents": [
+    {
+      "title": "JueWu-MC: Achieving Sample-Efficient Minecraft\nGameplay through Hierarchical Reinforcement\nLearning",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          118.18125236034393,
+          99.8338623046875
+        ],
+        [
+          496.38868045806885,
+          99.8338623046875
+        ],
+        [
+          495.19336795806885,
+          156.9224624633789
+        ],
+        [
+          116.98593986034393,
+          156.9224624633789
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.75799560546875,
+          240.6641845703125
+        ],
+        [
+          329.4865701198578,
+          240.6641845703125
+        ],
+        [
+          328.2912576198578,
+          252.619384765625
+        ],
+        [
+          282.77395606040955,
+          252.619384765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          448.20611572265625
+        ],
+        [
+          192.53833150863647,
+          448.20611572265625
+        ],
+        [
+          191.34301900863647,
+          460.16131591796875
+        ],
+        [
+          107.32009756565094,
+          460.16131591796875
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.41475808620453,
+          439.1977872848511
+        ],
+        [
+          199.34365689754486,
+          439.1977872848511
+        ],
+        [
+          199.34365689754486,
+          452.5743408203125
+        ],
+        [
+          107.41475808620453,
+          452.5743408203125
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Game AI",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.16343349218369,
+          463.5798568725586
+        ],
+        [
+          172.1252006292343,
+          463.5798568725586
+        ],
+        [
+          172.1252006292343,
+          475.8890686035156
+        ],
+        [
+          107.16343349218369,
+          475.8890686035156
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Sample-efficient Reinforcement Learning",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.87232047319412,
+          630.7677855491638
+        ],
+        [
+          307.7697687149048,
+          630.7677855491638
+        ],
+        [
+          307.7697687149048,
+          642.1210398674011
+        ],
+        [
+          106.87232047319412,
+          642.1210398674011
+        ]
+      ]
+    },
+    {
+      "title": "3 Method",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.38116180896759,
+          224.8021240234375
+        ],
+        [
+          166.75825917720795,
+          224.8021240234375
+        ],
+        [
+          166.75825917720795,
+          236.75732421875
+        ],
+        [
+          107.38116180896759,
+          236.75732421875
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Overview",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.76916962862015,
+          290.5275573730469
+        ],
+        [
+          171.37014162540436,
+          290.5275573730469
+        ],
+        [
+          171.37014162540436,
+          300.55956387519836
+        ],
+        [
+          107.76916962862015,
+          300.55956387519836
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Meta- and Sub-policies",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.31821894645691,
+          465.4414978027344
+        ],
+        [
+          229.22185492515564,
+          465.4414978027344
+        ],
+        [
+          229.22185492515564,
+          475.4040832519531
+        ],
+        [
+          107.31821894645691,
+          475.4040832519531
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Learning Sub-policies to Gather Resources",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.82868361473083,
+          116.84552001953125
+        ],
+        [
+          313.5193283557892,
+          116.84552001953125
+        ],
+        [
+          313.5193283557892,
+          126.80810546875
+        ],
+        [
+          106.82868361473083,
+          126.80810546875
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Learning Sub-policies to Craft Items",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.96652501821518,
+          74.31646728515625
+        ],
+        [
+          286.88568806648254,
+          74.31646728515625
+        ],
+        [
+          286.88568806648254,
+          84.279052734375
+        ],
+        [
+          106.96652501821518,
+          84.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiment",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.46433174610138,
+          372.9361572265625
+        ],
+        [
+          187.00103759765625,
+          372.9361572265625
+        ],
+        [
+          187.00103759765625,
+          384.891357421875
+        ],
+        [
+          107.46433174610138,
+          384.891357421875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Main Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.62668639421463,
+          448.987455368042
+        ],
+        [
+          187.56579065322876,
+          448.987455368042
+        ],
+        [
+          187.56579065322876,
+          459.3670959472656
+        ],
+        [
+          107.62668639421463,
+          459.3670959472656
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Ablation Study",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.45347952842712,
+          633.718505859375
+        ],
+        [
+          194.91371154785156,
+          633.2264142036438
+        ],
+        [
+          194.91371154785156,
+          643.6811065673828
+        ],
+        [
+          107.45347952842712,
+          644.3697867393494
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Visualization",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.32404631376266,
+          74.05723661184311
+        ],
+        [
+          186.05720472335815,
+          74.05723661184311
+        ],
+        [
+          186.05720472335815,
+          84.279052734375
+        ],
+        [
+          107.32404631376266,
+          84.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "5 Conclusion",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.46967577934265,
+          596.1631469726562
+        ],
+        [
+          183.50137066841125,
+          596.1631469726562
+        ],
+        [
+          183.50137066841125,
+          608.1183471679688
+        ],
+        [
+          107.46967577934265,
+          608.1183471679688
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          238
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          428
+        ],
+        [
+          "Line",
+          83
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          153
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P095"
+}

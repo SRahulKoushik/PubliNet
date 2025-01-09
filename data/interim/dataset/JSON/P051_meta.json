@@ -1,0 +1,370 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Real-Time Adaptation of Lexical Embeddings for\nEnhanced Part-of-Speech Tagging",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          123.61060774326324,
+          99.8338623046875
+        ],
+        [
+          490.7563977241516,
+          99.8338623046875
+        ],
+        [
+          489.5610852241516,
+          137.3698217868805
+        ],
+        [
+          122.41529524326324,
+          137.3698217868805
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.30255937576294,
+          220.22945952415466
+        ],
+        [
+          329.3172390460968,
+          220.22945952415466
+        ],
+        [
+          328.2432861328125,
+          232.693359375
+        ],
+        [
+          282.10724687576294,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          322.04114842414856
+        ],
+        [
+          192.59266555309296,
+          322.04114842414856
+        ],
+        [
+          191.39735305309296,
+          334.8633728027344
+        ],
+        [
+          107.9215292930603,
+          334.8633728027344
+        ]
+      ]
+    },
+    {
+      "title": "2 Experimental setup",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          106.9294450879097,
+          653.516402721405
+        ],
+        [
+          227.84272956848145,
+          651.969527721405
+        ],
+        [
+          227.84272956848145,
+          665.6873550415039
+        ],
+        [
+          106.9294450879097,
+          666.6375546455383
+        ]
+      ]
+    },
+    {
+      "title": "3 Experimental results",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.36080706119537,
+          113.4141845703125
+        ],
+        [
+          233.60084331035614,
+          113.4141845703125
+        ],
+        [
+          233.60084331035614,
+          125.369384765625
+        ],
+        [
+          107.36080706119537,
+          125.369384765625
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Time course of tagging accuracy",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.12815010547638,
+          539.0715179443359
+        ],
+        [
+          268.0292053222656,
+          539.0715179443359
+        ],
+        [
+          268.0292053222656,
+          549.0341186523438
+        ],
+        [
+          107.12815010547638,
+          549.0341186523438
+        ]
+      ]
+    },
+    {
+      "title": "4 Related Work",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.27887737751007,
+          380.67752051353455
+        ],
+        [
+          198.38240575790405,
+          380.67752051353455
+        ],
+        [
+          198.38240575790405,
+          394.6133728027344
+        ],
+        [
+          107.27887737751007,
+          394.6133728027344
+        ]
+      ]
+    },
+    {
+      "title": "5 Conclusion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          108.0,
+          550.1441960334778
+        ],
+        [
+          185.45856356620789,
+          548.5973210334778
+        ],
+        [
+          184.26325106620789,
+          562.6923675537109
+        ],
+        [
+          106.89503717422485,
+          563.1361899375916
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          171
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          161
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          148
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P051"
+}

@@ -1,0 +1,393 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Investigating Humanoid Robot Interaction in\nCorporate Settings: A BERT-Based Study of\nHumor-Driven Employee Dynamics",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          139.99574196338654,
+          99.8338623046875
+        ],
+        [
+          473.7860827445984,
+          99.8338623046875
+        ],
+        [
+          472.5907702445984,
+          157.04599106311798
+        ],
+        [
+          138.80042946338654,
+          157.04599106311798
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.75799560546875,
+          240.6641845703125
+        ],
+        [
+          329.2381911277771,
+          240.6641845703125
+        ],
+        [
+          328.2432861328125,
+          252.619384765625
+        ],
+        [
+          283.2161611318588,
+          252.619384765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.76653409004211,
+          502.19915771484375
+        ],
+        [
+          190.8136749267578,
+          501.84726333618164
+        ],
+        [
+          190.8136749267578,
+          514.1543579101562
+        ],
+        [
+          107.76653409004211,
+          514.4496116638184
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.91795444488525,
+          304.754150390625
+        ],
+        [
+          199.0351985692978,
+          304.754150390625
+        ],
+        [
+          197.8398860692978,
+          316.7745130062103
+        ],
+        [
+          106.72264194488525,
+          316.7745130062103
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.02974146604538,
+          198.37215542793274
+        ],
+        [
+          194.21041202545166,
+          198.37215542793274
+        ],
+        [
+          194.21041202545166,
+          211.0123291015625
+        ],
+        [
+          107.02974146604538,
+          211.0123291015625
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.62966847419739,
+          137.40044724941254
+        ],
+        [
+          192.76201486587524,
+          137.40044724941254
+        ],
+        [
+          191.56670236587524,
+          149.6868635416031
+        ],
+        [
+          106.43435597419739,
+          149.6868635416031
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.26874560117722,
+          122.45198786258698
+        ],
+        [
+          165.08718180656433,
+          122.45198786258698
+        ],
+        [
+          165.08718180656433,
+          135.48138427734375
+        ],
+        [
+          107.26874560117722,
+          135.48138427734375
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.07548493146896,
+          500.10320520401
+        ],
+        [
+          184.9098973274231,
+          500.10320520401
+        ],
+        [
+          184.9098973274231,
+          513.8453674316406
+        ],
+        [
+          107.07548493146896,
+          513.8453674316406
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          35
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P130"
+}

@@ -1,0 +1,385 @@
+{
+  "table_of_contents": [
+    {
+      "title": "A Unique Approach to Chain-of-Thought Prompting",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          111.81100463867188,
+          99.8338623046875
+        ],
+        [
+          501.20757579803467,
+          99.8338623046875
+        ],
+        [
+          500.01226329803467,
+          117.32409346103668
+        ],
+        [
+          110.64346611499786,
+          117.32409346103668
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.59704661369324,
+          200.81317138671875
+        ],
+        [
+          329.6764018535614,
+          200.81317138671875
+        ],
+        [
+          328.4810893535614,
+          212.76837158203125
+        ],
+        [
+          282.40173411369324,
+          212.76837158203125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.78350549936295,
+          379.72119140625
+        ],
+        [
+          191.50501799583435,
+          379.72119140625
+        ],
+        [
+          190.8136749267578,
+          391.85832810401917
+        ],
+        [
+          106.58819299936295,
+          391.85832810401917
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.65793895721436,
+          280.80822944641113
+        ],
+        [
+          199.34248960018158,
+          280.80822944641113
+        ],
+        [
+          198.14717710018158,
+          292.9205231666565
+        ],
+        [
+          106.46262645721436,
+          292.9205231666565
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          108.0,
+          143.1434826850891
+        ],
+        [
+          193.95590472221375,
+          143.1434826850891
+        ],
+        [
+          193.013427734375,
+          156.890380859375
+        ],
+        [
+          106.81651818752289,
+          156.890380859375
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.17268979549408,
+          620.458794593811
+        ],
+        [
+          193.25461435317993,
+          620.458794593811
+        ],
+        [
+          193.25461435317993,
+          634.1403503417969
+        ],
+        [
+          107.17268979549408,
+          634.1403503417969
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.56825768947601,
+          490.4061584472656
+        ],
+        [
+          164.75302469730377,
+          489.8358507156372
+        ],
+        [
+          164.75302469730377,
+          502.3613586425781
+        ],
+        [
+          107.56825768947601,
+          502.3613586425781
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.76068848371506,
+          398.5330739021301
+        ],
+        [
+          185.870911359787,
+          398.5330739021301
+        ],
+        [
+          184.675598859787,
+          410.5643310546875
+        ],
+        [
+          106.56537598371506,
+          410.5643310546875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          84
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          23
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P068"
+}

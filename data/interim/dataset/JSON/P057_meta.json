@@ -1,0 +1,203 @@
+{
+  "table_of_contents": [
+    {
+      "title": "A Collaborative Painting Experience:\nHuman-Machine Interaction on Canvas",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          159.2766308784485,
+          99.8338623046875
+        ],
+        [
+          455.2456798553467,
+          99.8338623046875
+        ],
+        [
+          454.0503673553467,
+          136.9742431640625
+        ],
+        [
+          158.0813183784485,
+          136.9742431640625
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          282.9371953010559,
+          216.8306586742401
+        ],
+        [
+          330.2855486869812,
+          216.8306586742401
+        ],
+        [
+          329.0902361869812,
+          229.40533447265625
+        ],
+        [
+          281.7418828010559,
+          229.40533447265625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          329.0859725475311
+        ],
+        [
+          193.33063459396362,
+          327.5390975475311
+        ],
+        [
+          192.13532209396362,
+          341.1133728027344
+        ],
+        [
+          106.80553829669952,
+          341.28205847740173
+        ]
+      ]
+    },
+    {
+      "title": "2 Methodology",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          593.587158203125
+        ],
+        [
+          193.84366178512573,
+          592.24565076828
+        ],
+        [
+          193.013427734375,
+          605.5423583984375
+        ],
+        [
+          107.12992841005325,
+          606.4988236427307
+        ]
+      ]
+    },
+    {
+      "title": "3 Discussion",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.44036567211151,
+          121.6499547958374
+        ],
+        [
+          181.71965539455414,
+          121.6499547958374
+        ],
+        [
+          181.71965539455414,
+          134.953369140625
+        ],
+        [
+          107.44036567211151,
+          134.953369140625
+        ]
+      ]
+    },
+    {
+      "title": "4 Acknowledgments",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.2900670170784,
+          358.71603083610535
+        ],
+        [
+          221.4214997291565,
+          358.71603083610535
+        ],
+        [
+          221.4214997291565,
+          371.96435546875
+        ],
+        [
+          107.2900670170784,
+          371.96435546875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P057"
+}

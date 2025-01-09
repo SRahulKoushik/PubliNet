@@ -1,0 +1,581 @@
+{
+  "table_of_contents": [
+    {
+      "title": "A Reverse Hierarchy Model for Predicting Eye\nFixations",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          133.36262941360474,
+          99.8338623046875
+        ],
+        [
+          480.23459815979004,
+          99.8338623046875
+        ],
+        [
+          479.03928565979004,
+          137.27947962284088
+        ],
+        [
+          132.16731691360474,
+          137.27947962284088
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.30299711227417,
+          217.45013427734375
+        ],
+        [
+          329.4751524925232,
+          217.45013427734375
+        ],
+        [
+          328.2798399925232,
+          229.40533447265625
+        ],
+        [
+          282.10768461227417,
+          229.40533447265625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          424.68414306640625
+        ],
+        [
+          190.8136749267578,
+          424.28135776519775
+        ],
+        [
+          190.8136749267578,
+          436.63934326171875
+        ],
+        [
+          107.0337266921997,
+          436.83574390411377
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.83414614200592,
+          264.3473560810089
+        ],
+        [
+          198.5959117412567,
+          264.3473560810089
+        ],
+        [
+          197.4005992412567,
+          276.46636962890625
+        ],
+        [
+          106.63883364200592,
+          276.46636962890625
+        ]
+      ]
+    },
+    {
+      "title": "3 Saliency from Image Super-Resolution",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.57927411794662,
+          72.787109375
+        ],
+        [
+          322.9899401664734,
+          72.787109375
+        ],
+        [
+          322.9899401664734,
+          84.7423095703125
+        ],
+        [
+          106.57927411794662,
+          84.7423095703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Saliency as Unpredictability",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.38679766654968,
+          153.4404296875
+        ],
+        [
+          250.89459085464478,
+          153.4404296875
+        ],
+        [
+          250.89459085464478,
+          163.40301513671875
+        ],
+        [
+          107.38679766654968,
+          163.40301513671875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Coarse-to-Fine Reconstruction",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.66466921567917,
+          379.17352294921875
+        ],
+        [
+          262.3755805492401,
+          379.17352294921875
+        ],
+        [
+          262.3755805492401,
+          389.1361083984375
+        ],
+        [
+          106.66466921567917,
+          389.1361083984375
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Saliency Map",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.94363504648209,
+          218.52252197265625
+        ],
+        [
+          189.0189664363861,
+          218.52252197265625
+        ],
+        [
+          189.0189664363861,
+          228.87306261062622
+        ],
+        [
+          106.94363504648209,
+          228.87306261062622
+        ]
+      ]
+    },
+    {
+      "title": "4 Reverse Propagation of Saliency",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.16451871395111,
+          320.21417236328125
+        ],
+        [
+          290.5758980512619,
+          320.21417236328125
+        ],
+        [
+          290.5758980512619,
+          332.16937255859375
+        ],
+        [
+          107.16451871395111,
+          332.16937255859375
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Generating Fixations",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          107.47788333892822,
+          389.41829895973206
+        ],
+        [
+          221.46665954589844,
+          389.41829895973206
+        ],
+        [
+          221.46665954589844,
+          399.39813232421875
+        ],
+        [
+          107.47788333892822,
+          399.39813232421875
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Incorporating Prior of Fixations",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          106.58383387327194,
+          74.21569830179214
+        ],
+        [
+          267.8498840332031,
+          74.21569830179214
+        ],
+        [
+          267.8498840332031,
+          84.279052734375
+        ],
+        [
+          106.58383387327194,
+          84.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "5 Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.69034969806671,
+          254.86016845703125
+        ],
+        [
+          191.54778850078583,
+          254.86016845703125
+        ],
+        [
+          191.54778850078583,
+          266.81536865234375
+        ],
+        [
+          107.69034969806671,
+          266.81536865234375
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Experiment Settings",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.95997714996338,
+          284.86407923698425
+        ],
+        [
+          218.5425431728363,
+          284.86407923698425
+        ],
+        [
+          217.3472306728363,
+          294.91912841796875
+        ],
+        [
+          106.76466464996338,
+          294.91912841796875
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Results",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.0653166770935,
+          72.7121651172638
+        ],
+        [
+          162.02399289608002,
+          72.7121651172638
+        ],
+        [
+          162.02399289608002,
+          84.279052734375
+        ],
+        [
+          107.0653166770935,
+          84.279052734375
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Contributions of Individual Components",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.44414114952087,
+          209.88902878761292
+        ],
+        [
+          306.2746431827545,
+          209.88902878761292
+        ],
+        [
+          306.2746431827545,
+          221.464111328125
+        ],
+        [
+          107.44414114952087,
+          221.464111328125
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion and Future Work",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.1097286939621,
+          475.62676906585693
+        ],
+        [
+          276.1346422433853,
+          475.62676906585693
+        ],
+        [
+          276.1346422433853,
+          488.5773620605469
+        ],
+        [
+          107.1097286939621,
+          488.5773620605469
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          448
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "TextInlineMath",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Equation",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          580
+        ],
+        [
+          "Line",
+          58
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "Equation",
+          6
+        ],
+        [
+          "TextInlineMath",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          226
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "Equation",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P023"
+}

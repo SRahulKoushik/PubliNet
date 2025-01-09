@@ -1,0 +1,412 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Discontinuous Constituent Parsing as Sequence\nLabeling",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          129.77116549015045,
+          99.8338623046875
+        ],
+        [
+          483.0574150085449,
+          99.8338623046875
+        ],
+        [
+          481.8621025085449,
+          137.9142233133316
+        ],
+        [
+          128.57585299015045,
+          137.9142233133316
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          282.768958568573,
+          220.70136308670044
+        ],
+        [
+          328.5862190723419,
+          220.70136308670044
+        ],
+        [
+          328.5862190723419,
+          232.693359375
+        ],
+        [
+          282.768958568573,
+          232.693359375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          107.81349956989288,
+          331.1766707897186
+        ],
+        [
+          191.44143676757812,
+          331.1766707897186
+        ],
+        [
+          191.44143676757812,
+          343.3433837890625
+        ],
+        [
+          107.81349956989288,
+          343.3433837890625
+        ]
+      ]
+    },
+    {
+      "title": "2 Related work",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          106.8712170124054,
+          655.101279258728
+        ],
+        [
+          195.4538573026657,
+          655.101279258728
+        ],
+        [
+          195.4538573026657,
+          667.407341003418
+        ],
+        [
+          106.8712170124054,
+          667.407341003418
+        ]
+      ]
+    },
+    {
+      "title": "3 Preliminaries",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          107.29605853557587,
+          547.5335612297058
+        ],
+        [
+          196.86683428287506,
+          547.5335612297058
+        ],
+        [
+          196.86683428287506,
+          560.1533355712891
+        ],
+        [
+          107.29605853557587,
+          560.1533355712891
+        ]
+      ]
+    },
+    {
+      "title": "4 Encoding nearly ordered permutations",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.26487892866135,
+          175.60768854618073
+        ],
+        [
+          325.4773414134979,
+          175.60768854618073
+        ],
+        [
+          325.4773414134979,
+          187.5933837890625
+        ],
+        [
+          107.26487892866135,
+          187.5933837890625
+        ]
+      ]
+    },
+    {
+      "title": "5 Experiments",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.30862522125244,
+          515.0319085121155
+        ],
+        [
+          191.9279626607895,
+          515.0319085121155
+        ],
+        [
+          191.9279626607895,
+          527.1923522949219
+        ],
+        [
+          107.30862522125244,
+          527.1923522949219
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Results",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.08936482667923,
+          648.2295074462891
+        ],
+        [
+          161.54313933849335,
+          648.2295074462891
+        ],
+        [
+          161.54313933849335,
+          658.3740849494934
+        ],
+        [
+          107.08936482667923,
+          658.3740849494934
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          107.19557976722717,
+          477.18086671829224
+        ],
+        [
+          184.10914957523346,
+          477.18086671829224
+        ],
+        [
+          184.10914957523346,
+          489.5733642578125
+        ],
+        [
+          107.19557976722717,
+          489.5733642578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          76
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          288
+        ],
+        [
+          "Line",
+          68
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TextInlineMath",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\P133"
+}

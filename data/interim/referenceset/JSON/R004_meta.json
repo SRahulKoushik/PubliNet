@@ -1,0 +1,366 @@
+{
+  "table_of_contents": [
+    {
+      "title": "AI-Driven Personalization in Online Education\nPlatforms: Harnessing the Power of Artificial\nIntelligence to Revolutionize Learning Experiences",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          118.8560231924057,
+          99.8338623046875
+        ],
+        [
+          494.73396348953247,
+          99.8338623046875
+        ],
+        [
+          493.53865098953247,
+          156.89923095703125
+        ],
+        [
+          117.6607106924057,
+          156.89923095703125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          283.35439467430115,
+          240.6641845703125
+        ],
+        [
+          328.98900961875916,
+          240.6641845703125
+        ],
+        [
+          328.98900961875916,
+          252.619384765625
+        ],
+        [
+          283.35439467430115,
+          252.619384765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          108.0,
+          397.00819730758667
+        ],
+        [
+          192.05406725406647,
+          397.00819730758667
+        ],
+        [
+          190.85875475406647,
+          409.2823486328125
+        ],
+        [
+          106.95418632030487,
+          409.2823486328125
+        ]
+      ]
+    },
+    {
+      "title": "2 Related Work",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          106.97925585508347,
+          330.5415494441986
+        ],
+        [
+          198.14719533920288,
+          330.5415494441986
+        ],
+        [
+          198.14719533920288,
+          343.31036376953125
+        ],
+        [
+          106.97925585508347,
+          343.31036376953125
+        ]
+      ]
+    },
+    {
+      "title": "3 Methodology",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          107.94834065437317,
+          145.39954662322998
+        ],
+        [
+          194.52217161655426,
+          145.39954662322998
+        ],
+        [
+          193.32685911655426,
+          158.59821224212646
+        ],
+        [
+          106.75302815437317,
+          158.59821224212646
+        ]
+      ]
+    },
+    {
+      "title": "4 Experiments",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          106.91402399539948,
+          641.9590730667114
+        ],
+        [
+          192.4109501838684,
+          641.9590730667114
+        ],
+        [
+          192.4109501838684,
+          655.2410116195679
+        ],
+        [
+          106.91402399539948,
+          655.2410116195679
+        ]
+      ]
+    },
+    {
+      "title": "5 Results",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          106.8999252319336,
+          476.7442030906677
+        ],
+        [
+          164.2003458738327,
+          476.7442030906677
+        ],
+        [
+          164.2003458738327,
+          490.4793701171875
+        ],
+        [
+          106.8999252319336,
+          490.4793701171875
+        ]
+      ]
+    },
+    {
+      "title": "6 Conclusion",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          107.8554493188858,
+          291.3121643066406
+        ],
+        [
+          183.06671142578125,
+          291.3121643066406
+        ],
+        [
+          183.06671142578125,
+          303.2673645019531
+        ],
+        [
+          107.8554493188858,
+          303.2673645019531
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          51
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          70
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\R004"
+}
