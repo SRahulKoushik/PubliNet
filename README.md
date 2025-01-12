@@ -1,6 +1,6 @@
 # Research Paper Publishability Analysis
 
-In relation to Kharagpur Data Science Hackathon
+With Kharagpur Data Science Hackathon
 Problem Statement given by Pathway
 
 ## Project Organization
