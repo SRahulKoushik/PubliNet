@@ -1,4 +1,4 @@
-import numpy as np  # linear algebra
+import numpy as np
 import os
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
@@ -8,18 +8,16 @@ from keras import layers
 from keras import regularizers
 from sklearn.model_selection import GridSearchCV
 from scikeras.wrappers import KerasClassifier
-from sklearn.utils.class_weight import compute_class_weight
-from imblearn.over_sampling import SMOTE
-from sklearn.metrics import f1_score, matthews_corrcoef, make_scorer
+from sklearn.metrics import f1_score
 
 # Define input directory
 input_dir = "data/processed/megaset"
 X = []
 
-# Load data function (update with actual path)
+# Load data function
 for filename in os.listdir(input_dir):
     data = np.array(np.load(os.path.join(input_dir, filename), allow_pickle=True))
-    X.append(data)  # All columns except the last one (features)
+    X.append(data)
 
 X = np.array(X)
 y = np.array(
@@ -71,50 +69,11 @@ sc = MinMaxScaler((0, 1))
 X_train = sc.fit_transform(X_train)
 X_test = sc.transform(X_test)
 
-# # Apply SMOTE to balance the classes
-# smote = SMOTE(sampling_strategy="auto", k_neighbors=3, random_state=0)
-# X_train_resampled, y_train_resampled = smote.fit_resample(X_train, y_train)
-
-# # Compute class weights
-# class_weights = compute_class_weight(
-#     "balanced", classes=np.unique(y_train_resampled), y=y_train_resampled
-# )
-# class_weight_dict = dict(zip(np.unique(y_train_resampled), class_weights))
-
-# classifier = Sequential()
-
-# # Adding the input layer and the first hidden layer
-# classifier.add(layers.Dense(units=128, activation="relu", kernel_regularizer=regularizers.l2(0.01)))
-
-# # Adding the second hidden layer
-# classifier.add(layers.Dense(units=64, activation="relu", kernel_regularizer=regularizers.l2(0.01)))
-
-# classifier.add(layers.Dense(units=32, activation="relu", kernel_regularizer=regularizers.l2(0.01)))
-
-# # Adding the output layer
-# classifier.add(layers.Dense(units=1, activation="sigmoid"))
-
-# # Compiling the ANN
-# classifier.compile(
-#     loss="binary_crossentropy", optimizer="adam", metrics=["accuracy", "precision", "recall"]
-# )
-
-# History = classifier.fit(x=X_train, y=y_train, batch_size=128, epochs=150, verbose=0)
-
-# plt.plot(History.history["loss"])
-# plt.title("Loss Function Over Epochs")
-# plt.ylabel("BCE value")
-# plt.xlabel("No. epoch")
-# plt.show()
-
-# # Define custom MCC scorer
-# mcc_score = make_scorer(matthews_corrcoef)
-
 
 def buildModel(optimizer_set="adam"):
     classifier = Sequential()
 
-    # Input layer + first hidden layer with L1 + L2 regularization + Batch Normalization + Dropout
+    # Input layer + first hidden layer with L1 + L2 regularization
     classifier.add(
         layers.Dense(
             units=128,
@@ -123,10 +82,8 @@ def buildModel(optimizer_set="adam"):
             kernel_regularizer=regularizers.l1_l2(l1=0.005, l2=0.01),
         )
     )  # L1 + L2 regularization
-    # classifier.add(layers.BatchNormalization())  # Batch Normalization
-    # classifier.add(layers.Dropout(0.2))  # Dropout to prevent overfitting
 
-    # Second hidden layer with L1 + L2 regularization + Batch Normalization + Dropout
+    # Second hidden layer with L1 + L2 regularization
     classifier.add(
         layers.Dense(
             units=64,
@@ -134,10 +91,8 @@ def buildModel(optimizer_set="adam"):
             kernel_regularizer=regularizers.l1_l2(l1=0.005, l2=0.01),
         )
     )  # L1 + L2 regularization
-    # classifier.add(layers.BatchNormalization())  # Batch Normalization
-    # classifier.add(layers.Dropout(0.19))  # Dropout
 
-    # Third hidden layer with L1 + L2 regularization + Batch Normalization + Dropout
+    # Third hidden layer with L1 + L2 regularization
     classifier.add(
         layers.Dense(
             units=32,
@@ -145,10 +100,8 @@ def buildModel(optimizer_set="adam"):
             kernel_regularizer=regularizers.l1_l2(l1=0.005, l2=0.01),
         )
     )  # L1 + L2 regularization
-    # classifier.add(layers.BatchNormalization())  # Batch Normalization
-    # classifier.add(layers.Dropout(0.18))  # Dropout
 
-    # Fourth hidden layer with L1 + L2 regularization + Batch Normalization + Dropout
+    # Fourth hidden layer with L1 + L2 regularization
     classifier.add(
         layers.Dense(
             units=16,
@@ -156,19 +109,6 @@ def buildModel(optimizer_set="adam"):
             kernel_regularizer=regularizers.l1_l2(l1=0.005, l2=0.01),
         )
     )  # L1 + L2 regularization
-    # classifier.add(layers.BatchNormalization())  # Batch Normalization
-    # classifier.add(layers.Dropout(0.18))  # Dropout
-
-    #  # Fifth hidden layer with L1 + L2 regularization + Batch Normalization + Dropout
-    # classifier.add(
-    #     layers.Dense(
-    #         units=8,
-    #         activation="relu",
-    #         kernel_regularizer=regularizers.l1_l2(l1=0.005, l2=0.01),
-    #     )
-    # )  # L1 + L2 regularization
-    # # classifier.add(layers.BatchNormalization())  # Batch Normalization
-    # # classifier.add(layers.Dropout(0.18))  # Dropout
 
     # Output layer
     classifier.add(
@@ -184,8 +124,7 @@ def buildModel(optimizer_set="adam"):
 
     return classifier
 
-
-# What hyperparameter we want to play with
+# Hyperparameter tuning
 parameters = {
     "batch_size": [16, 32, 64, 128],
     "epochs": [100, 150, 200],
@@ -194,7 +133,6 @@ parameters = {
 grid_search = GridSearchCV(
     estimator=KerasClassifier(build_fn=buildModel),
     param_grid=parameters,
-    # scoring=mcc_score,
     scoring="accuracy",
     cv=7,
 )
@@ -233,6 +171,6 @@ f1 = f1_score(y_test, y_pred, average="binary")
 print(f"Best Classifier F1 Score: {f1}")
 
 # Save the best model
-model_save_path = "nn_model_6.h5"  # Specify the file path to save the model
+model_save_path = "models/nn_model_prelim.h5"  # Specify the file path to save the model
 bestClassifier.save(model_save_path)
 print(f"Best model saved to {model_save_path}")
