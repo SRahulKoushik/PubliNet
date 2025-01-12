@@ -1,19 +1,20 @@
 # Research Paper Publishability Analysis
 
 In relation to Kharagpur Data Science Hackathon
+Problem Statement given by Pathway
 
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen in future
+├── LICENSE            <- Open-source license -- MIT License
 ├── README.md          <- The top-level README for developers using this project
 ├── data
 │   ├── external       <- Data from third-party sources
 │   ├── interim        <- Intermediate data that has been transformed
 │   ├── processed      <- The final canonical data sets for modeling
-│   └── raw            <- The original, immutable data dump
+│   └── raw            <- The original, immutable data dump of pdfs
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── models             <- Trained and serialized models
 │
 ├── notebooks          <- Jupyter notebooks.
 │
@@ -31,7 +32,7 @@ In relation to Kharagpur Data Science Hackathon
     │
     ├── config.py               <- Store useful variables and configuration
     │
-    ├── dataset.py              <- Scripts to download or generate data
+    ├── dataset.py              <- Scripts to parse downloaded data
     │
     ├── features.py             <- Code to create features for modeling
     │
@@ -39,8 +40,9 @@ In relation to Kharagpur Data Science Hackathon
     ├── modeling                
     │   ├── __init__.py 
     │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
+    │   └── train_models.py     <- Code to train xgboost and svm
+    │   └── train_nn.py         <- Code to train neural network
+
     ├── plots.py                <- Code to create visualizations 
     │
     └── services                <- Service classes to connect with external platforms, tools, or APIs
