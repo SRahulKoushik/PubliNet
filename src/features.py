@@ -191,3 +191,7 @@ if __name__ == "__main__":
     data_dir = "data/interim/dataset/Markdown"  # Adjust the path if necessary
     output_dir = "data/processed/dataset"
     process_directory(data_dir, output_dir)
+    
+    data_dir = "data/interim/megaset/Markdown"  # Adjust the path if necessary
+    output_dir = "data/processed/megaset"
+    process_directory(data_dir, output_dir)
