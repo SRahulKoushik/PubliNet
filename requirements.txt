@@ -1,2 +1,15 @@
-ipykernel
-python-dotenv
+numpy
+marker-pdf
+markdown2
+beautifulsoup4
+textblob
+nltk
+transformers
+joblib
+xgboost
+scikit-learn
+scikeras
+tensorflow
+keras
+matplotlib
+seaborn
