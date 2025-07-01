@@ -151,4 +151,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## 👤 Contact
 
-Maintained by **Sodisetty Rahul Koushik**.
+Maintained by **Sodisetty Rahul Koushik** and **Kesamreddy Yedukondala Yashwanth Reddy**
